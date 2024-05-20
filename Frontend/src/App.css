@@ -1,0 +1,356 @@
+.background-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background-size: cover;
+  background-position: center center;
+  filter: blur(1px); /* Adjust the blur amount as needed */
+  background-image: url("../public/bisu.png");
+}
+
+.navbar {
+  display: flex;
+  position: sticky;
+  top: 10px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  border-radius: 80px;
+  margin-top: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  box-shadow: 5px 5px 8px 5px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.campus-name {
+  font-size: 14px; /* Adjust the font size as needed */
+  text-align: left; /* Align the campus name to the right */
+  font-family: "Times New Roman", Times, serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-container img {
+  margin-right: 10px; /* Add spacing between the image and text */
+}
+
+.bisu-logo {
+  margin-left: 20px;
+  width: 60px;
+}
+
+.website {
+  width: 55px;
+  margin-right: 15px;
+}
+
+.user-info-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+  margin-left: 10px; /* Add margin to the left side */
+  margin-right: 10px; /* Add margin to the right side */
+}
+
+.user-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 80vh;
+  width: 160vh;
+  background-color: #c4d5e6;
+  border-radius: 10px;
+  padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  box-shadow: 5px 5px 8px 5px rgba(0, 0, 0, 0.2);
+}
+
+.user-info-input {
+  display: flex;
+  align-items: center;
+}
+
+.user-info-input p {
+  margin-right: 10px;
+  margin-bottom: 0;
+}
+
+.user-info input {
+  margin-bottom: 10px;
+  padding: 10px 10px 5px;
+  font-size: 18px;
+  width: 340px;
+  border-radius: 5px;
+  border: none;
+}
+
+.top-info-container {
+  display: flex;
+  position: relative;
+  justify-content: space-between; /* Align children to the left and right edges */
+  align-items: center; /* Center items vertically */
+  width: 160vh;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-left: 10px;
+}
+
+.checking{
+  margin-top: 50px;
+}
+
+.logout {
+  margin-left: 10px;
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 10px;
+  cursor: pointer;
+  border: none;
+  position: absolute;
+  top: 100px; /* Adjust this value to your preference */
+  right: 150px;
+}
+
+.logout2 {
+  margin-left: 10px;
+  background-color: #4CAF50;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 10px;
+  cursor: pointer;
+  border: none;
+ 
+}
+
+.logout:hover {
+  background-color: #d17224;
+  /* You can choose any other color you prefer for the hover effect */
+}
+
+.user-logo {
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.user-image {
+  height: 100px;
+}
+
+.logo-line {
+  width: 2px;
+  height: 60px; /* Adjust the height as needed */
+  background-color: #000000;
+  margin: 0 10px; /* Adjust the margin as needed */
+}
+
+.bibic-header {
+  font-weight: bold;
+  font-size: 25px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.vertical-line {
+  opacity: 0;
+  width: 5px;
+  height: 80px; /* Adjust the height as needed */
+  background-color: #ffffff;
+  margin: 0 15px; /* Adjust the margin as needed */
+}
+
+.horizontal-line {
+  width: 1500px;
+  height: 5px;
+  background-color: #000;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+
+.login-container img {
+  width: 120px;
+}
+
+.content {
+  height: 100vh; /* Add this line */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  background-color: #c4d5e6;
+  border-radius: 10px;
+  padding: 3px;
+  padding-left: 85px;
+  padding-right: 85px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 50px;
+  width: 280px; /* Increase the width as needed */
+  box-shadow: 10px 2px 10px rgba(0, 0, 0, 0.2); /* Add box-shadow for 3D effect */
+}
+
+.login-container2 {
+  border-radius: 10px;
+  padding: 3px;
+  padding-left: 85px;
+  padding-right: 85px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 50px;
+  width: 280px; /* Increase the width as needed */
+  box-shadow: 10px 2px 10px rgba(0, 0, 0, 0.2); /* Add box-shadow for 3D effect */
+}
+
+.login-input input {
+  margin-bottom: 10px;
+  padding: 10px 10px 5px;
+  font-size: 18px;
+  width: 350px; /* Use the full width of the container */
+  border-radius: 5px;
+  border: none;
+}
+
+.register-link {
+  cursor: pointer;
+  text-decoration: underline;
+  color: blue;
+}
+
+.loader {
+  border: 4px solid #f3f3f3;
+  border-top: 4px solid #3498db;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.login-error {
+  color: red;
+}
+
+.login {
+  margin-top: 10px;
+  padding: 20px 40px;
+  background-color: #4e86bb;
+  color: #fff;
+  border: none;
+  border-radius: 80px;
+  font-size: 20px;
+  cursor: pointer;
+  max-width: 150px;
+}
+
+.login:hover {
+  background-color: #d17224;
+  /* You can choose any other color you prefer for the hover effect */
+}
+
+.developer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.tab-buttons {
+  display: flex;
+  justify-content: center;
+}
+
+.tab-buttons button {
+  background-color: #f2f2f2;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+
+.tab-buttons button.active {
+  font-weight: bold;
+  font-size: 1.1em; /* slightly bigger font size */
+}
+
+.tab-buttons button:not(.active) {
+  opacity: 0.7; /* lower opacity for inactive buttons */
+}
+
+.tab-buttons button:not(:last-child) {
+  margin-right: 10px; /* space between buttons */
+}
+
+.tab-buttons button:hover {
+  background-color: #ddd;
+}
+
+.content {
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+
+.active-content {
+  display: block;
+}
+
+.active-tabs {
+  border-bottom: 1px solid transparent;
+  background: white;
+}
+
+.tabs:not(:last-child) {
+  border-right: 1px solid rgba(0, 0, 0, 0.274);
+}
+
+.active-tabs::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -5px;
+  left: 50%;
+  transform: translateX(50%);
+  width: calc(100% + 2px);
+  height: 5px;
+  background: rgb(88, 147, 241);
+}

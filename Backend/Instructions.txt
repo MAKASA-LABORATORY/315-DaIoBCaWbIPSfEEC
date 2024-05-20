@@ -1,0 +1,4 @@
+To run the server you need to have node.js
+In the cmd, type
+npm install
+npm run dev 
